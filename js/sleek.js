@@ -76,14 +76,14 @@ function DownloadingFile( fileName ) {
 	downloadedFiles++;
 	refreshProgress();
 
-	setStatus("Downloading files...");
+	setStatus("Téléchargement...");
 }
 
 function SetStatusChanged( status ) {
-	if (status.indexOf("Getting Addon #") != -1) {
+	if (status.indexOf("Addons #") != -1) {
 		downloadedFiles++;
 		refreshProgress();
-	}else if (status == "Sending client info...") {
+	}else if (status == "Finalisation du Téléchargement...") {
 		setProgress(100);
 	}
 
