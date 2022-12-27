@@ -22,7 +22,7 @@ var l_displayMapGamemode = true;
 
 // Custom server name configuration
 // Leave it blank for automatic server name
-var l_serverName = "sleekLoad 2";
+var l_serverName = "Rescapé de Reach";
 
 // Use a video for the background?
 // Otherwise it will use images
@@ -55,7 +55,7 @@ var l_bgVideo = false;
 // Just make sure they are using webm VP8 format 
 // (Place the videos in the backgrounds/videos folder)
 // (You can also use external URL)
-var l_background = "bluefall.webm";
+var l_background = "dropsfal.webm";
 
 // (Image-background only)
 // Enable map-based background image?
@@ -72,9 +72,8 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"gm_contruct.jpg",
-	"touhou02.jpg",
-	"touhou03.jpg"
+	"reach.jpg",
+	"odst.jpg",
 ];
 
 // (Image-background only)
@@ -130,9 +129,9 @@ var l_messagesEnabled = true;
 
 // Enter your custom messages below
 var l_messages = [
-	"Enjoy the server",
-	"Thanks for joining us!",
-	"Did you know these backgrounds and music are from Touhou?",
+	"",
+	"",
+	"",
 ];
 
 // Random message order?
