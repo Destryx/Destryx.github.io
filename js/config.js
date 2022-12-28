@@ -105,7 +105,7 @@ var l_music = true;
 
 // Display current music name?
 // 'true' or 'false'
-var l_musicDisplay = true;
+var l_musicDisplay = false;
 
 // Music playlist
 // Add as many youtube ids/urls or ogg files you want
