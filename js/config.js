@@ -111,7 +111,6 @@ var l_musicDisplay = false;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{youtube: "https://www.youtube.com/watch?v=MtPsAf3bgAA", name: "Warthog Run"},
 ];
 
 // Random music order?
