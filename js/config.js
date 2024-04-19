@@ -72,7 +72,12 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"beta.jpg"
+	"beta.jpg",
+	"atlas_212e.jpg",
+	"atlas_501e.jpg",
+	"atlas_104e.jpg",
+	"atlas_917e.jpg",
+	"atlas_5e.jpg"
 ];
 
 // (Image-background only)
