@@ -138,11 +138,11 @@ $(function() {
 	if (l_displayMapGamemode) $("#subtitle").show();
 	if (l_serverName && !l_serverImage) setServerName(l_serverName);
 	if (l_serverImage) {
-		if (isAbsoluteURL(l_serverImage)) {
-			setServerName("<img src='"+l_serverImage+"' class='vunit vw49 vh35'>");
-		}else{
-			setServerName("<img src='images/"+l_serverImage+"' class='vunit vw49 vh35'>");
-		}
+	//	if (isAbsoluteURL(l_serverImage)) {
+	//		setServerName("<img src='"+l_serverImage+"' class='vunit vw49 vh35'>");
+	//	}else{
+	//		setServerName("<img src='images/"+l_serverImage+"' class='vunit vw49 vh35'>");
+	//	}
 	}
 	if (l_bgOverlay) $("#overlay").css("background-image", "url('images/overlay.png')");
 	if (l_centerLogo) $("#header").css("text-align", "center");
