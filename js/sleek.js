@@ -315,14 +315,14 @@ function showErrorMessage(msg) {
 // 	}, l_messagesDelay + l_messagesFade*2);
 // }
 
-function isAbsoluteURL(string) {
-	string = string.toLowerCase();
+//function isAbsoluteURL(string) {
+//	string = string.toLowerCase();
 
-	if (string.startsWith("http://") || string.startsWith("https://"))
-		return true;
+//	if (string.startsWith("http://") || string.startsWith("https://"))
+//		return true;
 
-	return false;
-}
+//	return false;
+//}
 
 function getYoutubeIdFromUrl(url) {
 	var regExp = /^.*(youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
