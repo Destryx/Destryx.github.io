@@ -164,18 +164,18 @@ $(function() {
 	}
 
 	if (l_bgVideo) {
-		if (isAbsoluteURL(l_background)) {
-			$("body").append("<video loop autoplay muted><source src='"+l_background+"' type='video/webm'></video>");
-		}else{
+		//if (isAbsoluteURL(l_background)) {
+		//	$("body").append("<video loop autoplay muted><source src='"+l_background+"' type='video/webm'></video>");
+		//}else{
 			$("body").append("<video loop autoplay muted><source src='backgrounds/videos/"+l_background+"' type='video/webm'></video>");
-		}
+		//}
 	}
 
 	if (!l_bgVideo && !l_bgImageMapBased) {
 		for (var i = 0; i < l_bgImages.length; i++) {
-			if (!isAbsoluteURL(l_bgImages[i])) {
+			//if (!isAbsoluteURL(l_bgImages[i])) {
 				l_bgImages[i] = "backgrounds/images/" + l_bgImages[i];
-			}
+			//}
 		}
 		$.backstretch(l_bgImages, {duration: l_bgImageDuration, fade: l_bgImageFadeVelocity});
 	}
