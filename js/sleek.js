@@ -255,11 +255,11 @@ function nextMusic() {
 	if (atual.youtube) {
 		youtubePlayer.loadVideoById( getYoutubeIdFromUrl(atual.youtube) );
 	}else{
-		if (isAbsoluteURL(atual.ogg)) {
-			$("body").append('<audio src="'+atual.ogg+'" autoplay>');
-		}else{
-			$("body").append('<audio src="music/'+atual.ogg+'" autoplay>');
-		}
+		//if (isAbsoluteURL(atual.ogg)) {
+		//	$("body").append('<audio src="'+atual.ogg+'" autoplay>');
+		//}else{
+		//	$("body").append('<audio src="music/'+atual.ogg+'" autoplay>');
+		//}
 		$("audio").prop('volume', l_musicVolume/100);
 		$("audio").bind("ended", function() {
 			$(this).remove();
