@@ -134,7 +134,7 @@ $(function() {
 	if (l_bgImagesRandom) l_bgImages = shuffle(l_bgImages);
 	if (l_musicRandom) l_musicPlaylist = shuffle(l_musicPlaylist);
 	if (l_messagesRandom) l_messages = shuffle(l_messages);
-	if (l_messagesEnabled) showMessage(0);
+	//if (l_messagesEnabled) showMessage(0);
 	if (l_displayMapGamemode) $("#subtitle").show();
 	if (l_serverName && !l_serverImage) setServerName(l_serverName);
 	if (l_serverImage) {
