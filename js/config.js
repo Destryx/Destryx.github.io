@@ -76,7 +76,6 @@ var l_bgImages = [
 	"atlas_212e.jpg",
 	"atlas_501e.jpg",
 	"atlas_104e.jpg",
-	"atlas_917e.jpg",
 	"atlas_5e.jpg",
 ];
 
